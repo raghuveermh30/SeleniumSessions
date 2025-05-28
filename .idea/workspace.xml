@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6236e5dd-eb87-4767-bc6b-de2f63d224b2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/actionsconcept/ActionsMoveToElement.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JvmLoggingSettingsStorage">
+    <option name="loggerId" value="Slf4j" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2vHfCdTCAJB3sev8XANpsLq8RR5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ActionsClickAndSendKeys.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ActionsDragAndDrop.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ActionsFourLevelMneuHandlingBigBasket.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ActionsMethodChainingRegisterPage.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ActionsMoveToElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ActionsOpenCart.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ActionsRightClick.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ActionsScrolling.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ActionsSendKeysWithPause.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ActionsSignature.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AlertRedifMail.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AlertsConcept.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AuthPopupHandle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BackAndForwardSimulation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CalendarHandling.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassAttributeConcept.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CrossBrowserTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DropDownWithOutSelect.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ElementDisplayed.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ElementIsDisplayedDisabledChecked.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ElementIsExist.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EmptyWebElementList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExplicitWaitConcept.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FetchLinksHrefValues.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileUploadPopup.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FlipkartStreams.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FluentWaitConcepts.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FooterLinks.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FrameHandling.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GetDomAttributesConcept.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GoogleSearchSelect.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HeadlessConcept.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IFrameHandle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IframeHandleConcept.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ImplicitlyWaitConcept.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IncognitoMode.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JavaScriptExecutorConcept.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JqueryDropDownHandling.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LaunchBrowserUseCases.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LaunchChrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LocatorsConcept.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoginPageTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoginTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MultipleElementConcept.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MultipleSelectionWithSelectClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PollingTimeConcept.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PopupsHandling.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PsuedoElementsHandle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.QuitvsClose.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.RegistrationPageTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RelativeLocatorTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RelativeLocatorWithFindElements.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SVGElementWithXpath.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SauceLabsStream.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SelectDropDownHandlingConcept.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SelectDropDownWithOutSelectClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SelectDropdownAllOptions.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SelectDropdownUsingFB.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SelectDropdownValueWithOutUsingSelectClassMethods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SendKeysConcept.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SendKeysOnDisabledElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShadowDOMConcept.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringLocatorConcept.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TotalImages.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TotalNumTextFields.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WaitForAlert.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WaitForElements.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WaitForFrame.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WaitForPageLoading.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WaitForTitleAndUrl.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WaitForUrl.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WaitForWindow.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WebDriverBasics.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WebDriverMethods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WebElementClick.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WebElementConcept.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WebTableHandling.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WebTablePagination.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WebTablePaginationWithMultiSelect.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WebTableWithRelativeLocator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.locatorsconcept.RegistrationPageTest.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG./Users/rhanumantharaya/Desktop/Automation/SeleniumSessions/src/test/resources/testrunner/chrome.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG./Users/rhanumantharaya/Desktop/Automation/SeleniumSessions/src/test/resources/testrunner/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CRUDTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CRUDTest.updateUserTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DataProviderTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DataProviderTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DependsOnMethodsFeature.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ExpectedExceptionConcept.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ExpectedExceptionConcept.loginTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.GoogleTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.InvocationCount.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.InvocationCountFeature.createUser.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.InvocationCountFeature.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.OpenCartTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.OrangeHRMTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PriorityTest.e.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.PriorityTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestNGClass.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestNGClass.mulMethod.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestNgAnnotations (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestNgAnnotations.executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.test-output.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.IframeHandleConcept">
+    <configuration name="AlertsConcept" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="seleniumtricks.AlertsConcept" />
+      <module name="SeleniumSessions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seleniumtricks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IframeHandleConcept" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="seleniumtricks.IframeHandleConcept" />
+      <module name="SeleniumSessions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seleniumtricks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RelativeLocatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="relativeLocatorconcept.RelativeLocatorTest" />
+      <module name="SeleniumSessions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="relativeLocatorconcept.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RelativeLocatorWithFindElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="relativeLocatorconcept.RelativeLocatorWithFindElements" />
+      <module name="SeleniumSessions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="relativeLocatorconcept.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebTablePagination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="webtablepagination.WebTablePagination" />
+      <module name="SeleniumSessions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webtablepagination.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/rhanumantharaya/Desktop/Automation/SeleniumSessions/src/test/resources/testrunner/chrome.xml" type="TestNG" nameIsGenerated="true">
+      <module name="SeleniumSessions" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testrunner/chrome.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-output" type="TestNG">
+      <module name="SeleniumSessions" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.AlertsConcept" />
+      <item itemvalue="Application.IframeHandleConcept" />
+      <item itemvalue="Application.RelativeLocatorTest" />
+      <item itemvalue="Application.RelativeLocatorWithFindElements" />
+      <item itemvalue="Application.WebTablePagination" />
+      <item itemvalue="TestNG./Users/rhanumantharaya/Desktop/Automation/SeleniumSessions/src/test/resources/testrunner/chrome.xml" />
+      <item itemvalue="TestNG.test-output" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.IframeHandleConcept" />
+        <item itemvalue="Application.AlertsConcept" />
+        <item itemvalue="Application.RelativeLocatorWithFindElements" />
+        <item itemvalue="Application.WebTablePagination" />
+        <item itemvalue="Application.RelativeLocatorTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6236e5dd-eb87-4767-bc6b-de2f63d224b2" name="Changes" comment="" />
+      <created>1743806795164</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743806795164</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/webdriverconcept/QuitvsClose.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/webdriverconcept/QuitvsClose.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,52 @@
+TestNG:
+Its a unit testing framework for Java.
+Its used to test the functionality of the application.
+It is used in generally for unit testing framework.
+TestNG cannot with the browser, Selenium is interacting the browser.
+
+Selenium: It is a browser automation framework.
+
+Selenium + TestNG: It is used to test the functionality of the application with the help of TestNG.
+
+TestNG and Junit are the testing frameworks available in the market.
+
+Junit is mainly used for unit testing.
+
+
+TestNG Features:
+1. It is mainly used for test cases : PreCondition and PostCondition methods we can write
+2. Test Data: Data Provider
+3. Test Report: Pass/Fail Report
+4. Parallel Execution
+5. Grouping
+6. Annotations --> @Before, @After, @Test, @BeforeClass, @AfterClass, @BeforeMethod, @AfterMethod
+7. Priority
+8. Custom Reports : Extent Reports, Chain Test Reports, Extent Reports are almost deprecated in the market
+9. Listeners: ITestNGListener, IExecutionListener, IReporter, Custom Report, Logs etc
+10. TestNG XML: Test Suite, Test Case, Test Group, Test Parallel Execution
+11. Dependency: Test Case Dependency, Test Suite Dependency, Other Options
+
+Install:
+1. Add the testNg dependency in the pom.xml file : Import class/interface, use methods
+2. Run as TestNg: TestNG Plugin --> In intellij its already installed
+
+TDD Approach: Test Driven Development Approach
+This approach is used to write the test cases first and then write the code to pass the test cases.
+Think --> Test --> Code --> Refactor
+First Time, Test will fail, then write the code to pass the test case, then refactor the code.
+Here, My Target is test should be pass based on the Requirement.
+Here, I am driving the development of the code based on the test cases.
+
+Sequence of Execution:
+Add a Test --> Run the Test --> Test will Fail --> Make the change in the code --> Run the Test --> Test will Pass --> Refactor the code
+This flow will be repeated until all the test cases are passed.
+Same thing we will use in the Selenium with TestNG in Page Object Model (POM) Design Pattern.
+
+
+Threads Concept:
+Threads are used to run multiple tasks simultaneously.
+Threads are always independent of each other.
+They are used to run multiple test cases in parallel.
+thread-count is used to specify the number of threads to be used for parallel execution.
+Test Name should be unique in the testng.xml file.
+

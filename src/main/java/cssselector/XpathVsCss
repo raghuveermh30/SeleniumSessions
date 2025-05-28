@@ -1,0 +1,39 @@
+Xpath
+1. Syntax is complex
+2. Performance is good
+3. Absolute xpath performance is poor
+4. text is present
+5. Both siblings are present
+6. Child to Parent is supported
+7. Parent to Child is supported
+8. Backward traversing is supported
+9. Index is supported
+10. not is supported
+11. Comma/Union is supported
+12. ends-with is not available
+13. contains is available
+14. starts-with is available
+15. space concept is supported
+16. SVG is supported
+17. Shadow Dom cannot be supported
+18. Relative Locators are supported
+
+CSS
+1. Syntax is better
+2. Performance is good
+3. Absolute xpath performance is poor
+4. text is not present
+5. Only following sibling is present
+6. Child to Parent is not supported
+7. Parent to Child is supported
+8. Backward traversing is not supported
+9. Index is supported (+1) -> Extra Point
+10. not is supported
+11. Comma/Union is supported
+12. ends-with is available
+13. contains is available
+14. starts-with is available
+15. space concept is not supported
+16. SVG is limited
+17. Shadow Dom is supported
+18. Relative Locators are supported
