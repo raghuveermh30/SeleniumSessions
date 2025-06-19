@@ -1,0 +1,44 @@
+1. All the scripts were executing till yesterday. But today chrome browser got updated and your scripts started failing..How to resolve this?
+- May be its application got crashed, application might not be compatable in the browser, or test data issue, something has changed in the DB
+- Server might be down, Selenium grid might be down
+- Script issue, locator issue
+- Element properties got changed
+- Application might have bug
+- May be the scripts might be failing due to some wrong code has merged yesterday hence it might be failed
+- Test data issue
+
+2. Chrome browser got updated and scripts starts failing?
+- May be server could not started
+- Binary File has corrupted
+- chrome driver version might not be downloaded correctly
+- May be System Properties got updated, .exe file is not available
+- We need to fix the problem using the latest chrome driver.exe file is updated on the latest
+
+3. How driver.getTitle() method works internally?
+driver.getTitle() --> Title of the WebPage and it will return the String
+This will return the GET API call
+https://www.w3.org/TR/webdriver/#get-title -> URL
+GET	/session/{session id}/title
+This command returns the document title of session's current top-level browsing context, equivalent to calling document.title.
+Let title be the session's current top-level browsing context's active document's title.
+Title will be present always from HEAD tag in the Html DOM
+String getTitle() --> this is present in the WebDriver interface
+Implementation is available in execute() method
+execute() --> this is available in the RemoteWebDriver class
+
+4. RemoteWebDriver driver = new ChromeDriver(); --> This is also correct --> This is also following OOPs concept
+WebDriver driver = new ChromeDriver(); --> This is also correct --> This is also following OOPs concept
+RemoteWebDriver driver = new ChromeDriver(); --> This is also absolutely correct
+RemoteWebDriver is actually implementing the WebDriver Interface
+I can access all the methods that were present in the WebDriver Interface
+Generally we won;t prefer because generally we will use the GrandParent Class and if Interface is available then We will do TopCasting on the Interface
+
+ChromeDriver driver = new ChromeDriver() --> this will be applicable only for chrome, I cannot do the cross browser testing
+
+WebDriver driver = new ChromeDriver(); --> The implementation is like that, this is similar to HasMap and List
+List<String> arr = new ArrayList<>();
+Map<K,V> map = new HashMap<>();
+
+In selenium 3 and Selenium 4 --> they have removed so many methods are removed in the Selenium 4 Libraries. Ex -> findElement(By.id), findElement(By.name) like this
+
+Why do we use ChromeDriver/GeckoDriver .exe files are needed?

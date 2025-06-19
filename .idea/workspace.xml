@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6236e5dd-eb87-4767-bc6b-de2f63d224b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/actionsconcept/ActionsMoveToElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;raghuveermh30&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/raghuveermh30/SeleniumSessions.git&quot;,
+    &quot;accountId&quot;: &quot;7eb1885d-77b8-4962-9e24-1588b2d8207f&quot;
+  }
+}</component>
   <component name="JvmLoggingSettingsStorage">
     <option name="loggerId" value="Slf4j" />
   </component>
@@ -58,6 +63,7 @@
     &quot;Application.AlertsConcept.executor&quot;: &quot;Run&quot;,
     &quot;Application.AuthPopupHandle.executor&quot;: &quot;Run&quot;,
     &quot;Application.BackAndForwardSimulation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BrokenLinks.executor&quot;: &quot;Run&quot;,
     &quot;Application.CalendarHandling.executor&quot;: &quot;Run&quot;,
     &quot;Application.ClassAttributeConcept.executor&quot;: &quot;Run&quot;,
     &quot;Application.CrossBrowserTest.executor&quot;: &quot;Run&quot;,
@@ -96,7 +102,9 @@
     &quot;Application.RegistrationPageTest.executor&quot;: &quot;Run&quot;,
     &quot;Application.RelativeLocatorTest.executor&quot;: &quot;Run&quot;,
     &quot;Application.RelativeLocatorWithFindElements.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoteDriverTest.executor&quot;: &quot;Run&quot;,
     &quot;Application.SVGElementWithXpath.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SVGGraph.executor&quot;: &quot;Run&quot;,
     &quot;Application.SauceLabsStream.executor&quot;: &quot;Run&quot;,
     &quot;Application.SelectDropDownHandlingConcept.executor&quot;: &quot;Run&quot;,
     &quot;Application.SelectDropDownWithOutSelectClass.executor&quot;: &quot;Run&quot;,
@@ -123,13 +131,16 @@
     &quot;Application.WebTableHandling.executor&quot;: &quot;Run&quot;,
     &quot;Application.WebTablePagination.executor&quot;: &quot;Run&quot;,
     &quot;Application.WebTablePaginationWithMultiSelect.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WebTableRowColumn.executor&quot;: &quot;Run&quot;,
     &quot;Application.WebTableWithRelativeLocator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WindowSwitchConcept.executor&quot;: &quot;Run&quot;,
     &quot;Application.locatorsconcept.RegistrationPageTest.executor&quot;: &quot;Run&quot;,
     &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;TestNG./Users/rhanumantharaya/Desktop/Automation/SeleniumSessions/src/test/resources/testrunner/chrome.xml.executor&quot;: &quot;Run&quot;,
     &quot;TestNG./Users/rhanumantharaya/Desktop/Automation/SeleniumSessions/src/test/resources/testrunner/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AmazonTest.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.CRUDTest.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.CRUDTest.updateUserTest.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.DataProviderTest (1).executor&quot;: &quot;Run&quot;,
@@ -158,13 +169,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.IframeHandleConcept">
-    <configuration name="AlertsConcept" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="seleniumtricks.AlertsConcept" />
+  <component name="RunManager" selected="TestNG.GoogleTest">
+    <configuration name="BrokenLinks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="seleniuminterviewconcepts.BrokenLinks" />
       <module name="SeleniumSessions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seleniumtricks.*" />
+          <option name="PATTERN" value="seleniuminterviewconcepts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,12 +183,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IframeHandleConcept" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="seleniumtricks.IframeHandleConcept" />
+    <configuration name="WebTableRowColumn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="seleniuminterviewconcepts.WebTableRowColumn" />
       <module name="SeleniumSessions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seleniumtricks.*" />
+          <option name="PATTERN" value="seleniuminterviewconcepts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,12 +196,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RelativeLocatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="relativeLocatorconcept.RelativeLocatorTest" />
+    <configuration name="WindowSwitchConcept" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="seleniuminterviewconcepts.WindowSwitchConcept" />
       <module name="SeleniumSessions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="relativeLocatorconcept.*" />
+          <option name="PATTERN" value="seleniuminterviewconcepts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,28 +209,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RelativeLocatorWithFindElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="relativeLocatorconcept.RelativeLocatorWithFindElements" />
+    <configuration name="AmazonTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumSessions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="relativeLocatorconcept.*" />
+          <option name="PATTERN" value="seleniuminterviewconcepts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="seleniuminterviewconcepts" />
+      <option name="MAIN_CLASS_NAME" value="seleniuminterviewconcepts.AmazonTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebTablePagination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="webtablepagination.WebTablePagination" />
+    <configuration name="GoogleTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumSessions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="webtablepagination.*" />
+          <option name="PATTERN" value="seleniumfactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="seleniumfactory" />
+      <option name="MAIN_CLASS_NAME" value="seleniumfactory.GoogleTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -267,21 +286,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AlertsConcept" />
-      <item itemvalue="Application.IframeHandleConcept" />
-      <item itemvalue="Application.RelativeLocatorTest" />
-      <item itemvalue="Application.RelativeLocatorWithFindElements" />
-      <item itemvalue="Application.WebTablePagination" />
+      <item itemvalue="Application.BrokenLinks" />
+      <item itemvalue="Application.WebTableRowColumn" />
+      <item itemvalue="Application.WindowSwitchConcept" />
       <item itemvalue="TestNG./Users/rhanumantharaya/Desktop/Automation/SeleniumSessions/src/test/resources/testrunner/chrome.xml" />
       <item itemvalue="TestNG.test-output" />
+      <item itemvalue="TestNG.GoogleTest" />
+      <item itemvalue="TestNG.AmazonTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IframeHandleConcept" />
-        <item itemvalue="Application.AlertsConcept" />
-        <item itemvalue="Application.RelativeLocatorWithFindElements" />
-        <item itemvalue="Application.WebTablePagination" />
-        <item itemvalue="Application.RelativeLocatorTest" />
+        <item itemvalue="TestNG.GoogleTest" />
+        <item itemvalue="Application.BrokenLinks" />
+        <item itemvalue="TestNG.AmazonTest" />
+        <item itemvalue="Application.WindowSwitchConcept" />
+        <item itemvalue="Application.WebTableRowColumn" />
       </list>
     </recent_temporary>
   </component>

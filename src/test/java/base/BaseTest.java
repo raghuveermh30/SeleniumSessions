@@ -49,6 +49,7 @@ public class BaseTest {
         driver.get(appUrl);
     }
 
+
     @AfterTest
     public void tearDown() {
         if (driver != null) {
