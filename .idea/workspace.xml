@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6236e5dd-eb87-4767-bc6b-de2f63d224b2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/actionsconcept/ActionsRightClick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actionsconcept/ActionsRightClick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/waitconcepts/FluentWaitConcepts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/waitconcepts/FluentWaitConcepts.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,140 +43,141 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2vHfCdTCAJB3sev8XANpsLq8RR5" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="sortKey" value="BY_TIME_ASCENDING" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ActionsClickAndSendKeys.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ActionsDragAndDrop.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ActionsFourLevelMneuHandlingBigBasket.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ActionsMethodChainingRegisterPage.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ActionsMoveToElement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ActionsOpenCart.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ActionsRightClick.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ActionsScrolling.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ActionsSendKeysWithPause.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ActionsSignature.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AlertRedifMail.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AlertsConcept.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AuthPopupHandle.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BackAndForwardSimulation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BrokenLinks.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CalendarHandling.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ClassAttributeConcept.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CrossBrowserTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DropDownWithOutSelect.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ElementDisplayed.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ElementIsDisplayedDisabledChecked.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ElementIsExist.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EmptyWebElementList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExplicitWaitConcept.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FetchLinksHrefValues.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileUploadPopup.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FlipkartStreams.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FluentWaitConcepts.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FooterLinks.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FrameHandling.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GetDomAttributesConcept.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GoogleSearchSelect.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HeadlessConcept.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IFrameHandle.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IframeHandleConcept.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ImplicitlyWaitConcept.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IncognitoMode.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JavaScriptExecutorConcept.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JqueryDropDownHandling.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LaunchBrowserUseCases.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LaunchChrome.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LocatorsConcept.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LoginPageTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LoginTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MultipleElementConcept.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MultipleSelectionWithSelectClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PollingTimeConcept.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PopupsHandling.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PsuedoElementsHandle.executor&quot;: &quot;Run&quot;,
-    &quot;Application.QuitvsClose.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.RegistrationPageTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RelativeLocatorTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RelativeLocatorWithFindElements.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RemoteDriverTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SVGElementWithXpath.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SVGGraph.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SauceLabsStream.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SelectDropDownHandlingConcept.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SelectDropDownWithOutSelectClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SelectDropdownAllOptions.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SelectDropdownUsingFB.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SelectDropdownValueWithOutUsingSelectClassMethods.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SendKeysConcept.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SendKeysOnDisabledElement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ShadowDOMConcept.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringLocatorConcept.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TotalImages.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TotalNumTextFields.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WaitForAlert.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WaitForElements.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WaitForFrame.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WaitForPageLoading.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WaitForTitleAndUrl.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WaitForUrl.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WaitForWindow.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WebDriverBasics.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WebDriverMethods.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WebElementClick.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WebElementConcept.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WebTableHandling.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WebTablePagination.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WebTablePaginationWithMultiSelect.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WebTableRowColumn.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WebTableWithRelativeLocator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WindowSwitchConcept.executor&quot;: &quot;Run&quot;,
-    &quot;Application.locatorsconcept.RegistrationPageTest.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG./Users/rhanumantharaya/Desktop/Automation/SeleniumSessions/src/test/resources/testrunner/chrome.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG./Users/rhanumantharaya/Desktop/Automation/SeleniumSessions/src/test/resources/testrunner/testng.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.AmazonTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.CRUDTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.CRUDTest.updateUserTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DataProviderTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DataProviderTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DependsOnMethodsFeature.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ExpectedExceptionConcept.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ExpectedExceptionConcept.loginTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.GoogleTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.InvocationCount.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.InvocationCountFeature.createUser.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.InvocationCountFeature.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.OpenCartTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.OrangeHRMTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PriorityTest.e.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.PriorityTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestNGClass.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestNGClass.mulMethod.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestNgAnnotations (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TestNgAnnotations.executor&quot;: &quot;Debug&quot;,
-    &quot;TestNG.test-output.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ActionsClickAndSendKeys.executor": "Run",
+    "Application.ActionsDragAndDrop.executor": "Run",
+    "Application.ActionsFourLevelMneuHandlingBigBasket.executor": "Run",
+    "Application.ActionsMethodChainingRegisterPage.executor": "Run",
+    "Application.ActionsMoveToElement.executor": "Run",
+    "Application.ActionsOpenCart.executor": "Run",
+    "Application.ActionsRightClick.executor": "Run",
+    "Application.ActionsScrolling.executor": "Run",
+    "Application.ActionsSendKeysWithPause.executor": "Run",
+    "Application.ActionsSignature.executor": "Run",
+    "Application.AlertRedifMail.executor": "Run",
+    "Application.AlertsConcept.executor": "Run",
+    "Application.AuthPopupHandle.executor": "Run",
+    "Application.BackAndForwardSimulation.executor": "Run",
+    "Application.BrokenLinks.executor": "Run",
+    "Application.CalendarHandling.executor": "Run",
+    "Application.ClassAttributeConcept.executor": "Run",
+    "Application.CrossBrowserTest.executor": "Run",
+    "Application.DropDownWithOutSelect.executor": "Run",
+    "Application.ElementDisplayed.executor": "Run",
+    "Application.ElementIsDisplayedDisabledChecked.executor": "Run",
+    "Application.ElementIsExist.executor": "Run",
+    "Application.EmptyWebElementList.executor": "Run",
+    "Application.ExplicitWaitConcept.executor": "Run",
+    "Application.FetchLinksHrefValues.executor": "Run",
+    "Application.FileUploadPopup.executor": "Run",
+    "Application.FlipkartStreams.executor": "Run",
+    "Application.FluentWaitConcepts.executor": "Run",
+    "Application.FooterLinks.executor": "Run",
+    "Application.FrameHandling.executor": "Run",
+    "Application.GetDomAttributesConcept.executor": "Run",
+    "Application.GoogleSearchSelect.executor": "Run",
+    "Application.HeadlessConcept.executor": "Run",
+    "Application.IFrameHandle.executor": "Run",
+    "Application.IframeHandleConcept.executor": "Run",
+    "Application.ImplicitlyWaitConcept.executor": "Run",
+    "Application.IncognitoMode.executor": "Run",
+    "Application.JavaScriptExecutorConcept.executor": "Run",
+    "Application.JqueryDropDownHandling.executor": "Run",
+    "Application.LaunchBrowserUseCases.executor": "Run",
+    "Application.LaunchChrome.executor": "Run",
+    "Application.LocatorsConcept.executor": "Run",
+    "Application.LoginPageTest.executor": "Run",
+    "Application.LoginTest.executor": "Run",
+    "Application.MultipleElementConcept.executor": "Run",
+    "Application.MultipleSelectionWithSelectClass.executor": "Run",
+    "Application.PollingTimeConcept.executor": "Run",
+    "Application.PopupsHandling.executor": "Run",
+    "Application.PsuedoElementsHandle.executor": "Run",
+    "Application.QuitvsClose.executor": "Debug",
+    "Application.RegistrationPageTest.executor": "Run",
+    "Application.RelativeLocatorTest.executor": "Run",
+    "Application.RelativeLocatorWithFindElements.executor": "Run",
+    "Application.RemoteDriverTest.executor": "Run",
+    "Application.SVGElementWithXpath.executor": "Run",
+    "Application.SVGGraph.executor": "Run",
+    "Application.SauceLabsStream.executor": "Run",
+    "Application.SelectDropDownHandlingConcept.executor": "Run",
+    "Application.SelectDropDownWithOutSelectClass.executor": "Run",
+    "Application.SelectDropdownAllOptions.executor": "Run",
+    "Application.SelectDropdownUsingFB.executor": "Run",
+    "Application.SelectDropdownValueWithOutUsingSelectClassMethods.executor": "Run",
+    "Application.SendKeysConcept.executor": "Run",
+    "Application.SendKeysOnDisabledElement.executor": "Run",
+    "Application.ShadowDOMConcept.executor": "Run",
+    "Application.StringLocatorConcept.executor": "Run",
+    "Application.TotalImages.executor": "Run",
+    "Application.TotalNumTextFields.executor": "Run",
+    "Application.WaitForAlert.executor": "Run",
+    "Application.WaitForElements.executor": "Run",
+    "Application.WaitForFrame.executor": "Run",
+    "Application.WaitForPageLoading.executor": "Run",
+    "Application.WaitForTitleAndUrl.executor": "Run",
+    "Application.WaitForUrl.executor": "Run",
+    "Application.WaitForWindow.executor": "Run",
+    "Application.WebDriverBasics.executor": "Run",
+    "Application.WebDriverMethods.executor": "Run",
+    "Application.WebElementClick.executor": "Run",
+    "Application.WebElementConcept.executor": "Run",
+    "Application.WebTableHandling.executor": "Run",
+    "Application.WebTablePagination.executor": "Run",
+    "Application.WebTablePaginationWithMultiSelect.executor": "Run",
+    "Application.WebTableRowColumn.executor": "Run",
+    "Application.WebTableWithRelativeLocator.executor": "Run",
+    "Application.WindowSwitchConcept.executor": "Run",
+    "Application.locatorsconcept.RegistrationPageTest.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG./Users/rhanumantharaya/Desktop/Automation/SeleniumSessions/src/test/resources/testrunner/chrome.xml.executor": "Run",
+    "TestNG./Users/rhanumantharaya/Desktop/Automation/SeleniumSessions/src/test/resources/testrunner/testng.xml.executor": "Run",
+    "TestNG.AmazonTest.executor": "Run",
+    "TestNG.CRUDTest.executor": "Run",
+    "TestNG.CRUDTest.updateUserTest.executor": "Run",
+    "TestNG.DataProviderTest (1).executor": "Run",
+    "TestNG.DataProviderTest.executor": "Run",
+    "TestNG.DependsOnMethodsFeature.executor": "Run",
+    "TestNG.ExpectedExceptionConcept.executor": "Run",
+    "TestNG.ExpectedExceptionConcept.loginTest.executor": "Run",
+    "TestNG.GoogleTest.executor": "Run",
+    "TestNG.InvocationCount.executor": "Run",
+    "TestNG.InvocationCountFeature.createUser.executor": "Run",
+    "TestNG.InvocationCountFeature.executor": "Run",
+    "TestNG.OpenCartTest.executor": "Run",
+    "TestNG.OrangeHRMTest.executor": "Run",
+    "TestNG.PriorityTest.e.executor": "Run",
+    "TestNG.PriorityTest.executor": "Run",
+    "TestNG.TestNGClass.executor": "Run",
+    "TestNG.TestNGClass.mulMethod.executor": "Run",
+    "TestNG.TestNgAnnotations (1).executor": "Run",
+    "TestNG.TestNgAnnotations.executor": "Debug",
+    "TestNG.test-output.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.GoogleTest">
-    <configuration name="BrokenLinks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="seleniuminterviewconcepts.BrokenLinks" />
+}]]></component>
+  <component name="RunManager" selected="Application.ActionsFourLevelMneuHandlingBigBasket">
+    <configuration name="ActionsFourLevelMneuHandlingBigBasket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="actionsconcept.ActionsFourLevelMneuHandlingBigBasket" />
       <module name="SeleniumSessions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seleniuminterviewconcepts.*" />
+          <option name="PATTERN" value="actionsconcept.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,12 +185,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebTableRowColumn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="seleniuminterviewconcepts.WebTableRowColumn" />
+    <configuration name="RelativeLocatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="relativeLocatorconcept.RelativeLocatorTest" />
       <module name="SeleniumSessions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seleniuminterviewconcepts.*" />
+          <option name="PATTERN" value="relativeLocatorconcept.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -286,21 +288,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BrokenLinks" />
-      <item itemvalue="Application.WebTableRowColumn" />
+      <item itemvalue="Application.ActionsFourLevelMneuHandlingBigBasket" />
       <item itemvalue="Application.WindowSwitchConcept" />
+      <item itemvalue="Application.RelativeLocatorTest" />
       <item itemvalue="TestNG./Users/rhanumantharaya/Desktop/Automation/SeleniumSessions/src/test/resources/testrunner/chrome.xml" />
       <item itemvalue="TestNG.test-output" />
-      <item itemvalue="TestNG.GoogleTest" />
       <item itemvalue="TestNG.AmazonTest" />
+      <item itemvalue="TestNG.GoogleTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ActionsFourLevelMneuHandlingBigBasket" />
+        <item itemvalue="Application.RelativeLocatorTest" />
         <item itemvalue="TestNG.GoogleTest" />
-        <item itemvalue="Application.BrokenLinks" />
         <item itemvalue="TestNG.AmazonTest" />
         <item itemvalue="Application.WindowSwitchConcept" />
-        <item itemvalue="Application.WebTableRowColumn" />
       </list>
     </recent_temporary>
   </component>
@@ -314,21 +316,5 @@
       <updated>1743806795164</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/webdriverconcept/QuitvsClose.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/webdriverconcept/QuitvsClose.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

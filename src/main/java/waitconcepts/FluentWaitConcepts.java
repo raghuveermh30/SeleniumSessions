@@ -15,7 +15,7 @@ public class FluentWaitConcepts {
     public static void main(String[] args) {
 
         //Wait is the Interface --> Wait has until() method
-        // -> FluentWait is the Class and Implements Wait Interface  --> until() method+ Other Individual Methods
+        // -> FluentWait is the Class and Implements Wait Interface  --> until() method + Other Individual Methods
         // --> WebDriverWait is the child Class --> this has no Individual methods + all inherited methods are available in WebDriverWait
         // There is no difference in the WebDriverWait and FluentWait
         // Both WebDriverWait and FluentWait are same both are doing the same action

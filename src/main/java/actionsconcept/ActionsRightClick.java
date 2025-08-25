@@ -33,10 +33,7 @@ public class ActionsRightClick {
                 element.click();
                 break;
             }
-
         }
-
-
     }
 }
 
