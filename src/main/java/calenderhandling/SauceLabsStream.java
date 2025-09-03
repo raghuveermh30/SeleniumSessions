@@ -53,7 +53,6 @@ public class SauceLabsStream {
         double maxStockPrice = currentPriceList.stream().map(e -> Double.parseDouble(e.getText())).max(Double::compareTo).get();
         System.out.println("Maximum Stock Price : " + maxStockPrice);
 
-
     }
 
 }

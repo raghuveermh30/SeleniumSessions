@@ -21,7 +21,7 @@ public class ImplicitlyWaitConcept {
          * It will be applied to all the elements in the script.
          * Once its applied to the driver, it will be applied to all the upcoming elements in the script.
          * It cannot be applied to a specific element.
-         * Explicity wait cannot be applied for WebElement
+         * Explicitly wait cannot be applied for WebElement
          * It cannot be used for non Web elements --> Example --> Title, Javascript popup's ,Popup, Alert, etc. Here Implicit wait cannot be applied.
          * Default time is 0 seconds.
          */

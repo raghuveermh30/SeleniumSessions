@@ -27,6 +27,7 @@ public class StringLocatorConcept {
 
         //2nd Approach
         doSendKeys("ID", email_Id, "raghuveer11@gmail.com");
+       // doSendKeys(email_Id, "raghuveer11@gmail.com");
         doSendKeys("ID", pass_Id, "test@123");
         doClick("XPATH", loginBtnXpath);
         browserUtil.closeBrowser();
@@ -50,6 +51,10 @@ public class StringLocatorConcept {
 
     public static void doClick(String locatorType, String locatorValue) {
         getElement(getLocator(locatorType, locatorValue)).click();
+    }
+
+    public static String getElementText(By locator){
+        return getElement(locator).getText();
     }
 
     public static By getLocator(String locatorType, String locatorValue) {

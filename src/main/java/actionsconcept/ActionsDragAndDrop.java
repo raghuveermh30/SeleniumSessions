@@ -26,10 +26,9 @@ public class ActionsDragAndDrop {
         actions.clickAndHold(sourceEle).moveToElement(targetEle).build().perform(); //this will also work
 
         // actions.dragAndDrop(sourceEle, targetEle).build().perform(); //this will also work
-        // All the actions method returning the Actions class only, Hence its achiveing the Builder Pattern
+        // All the actions method returning the Actions class only, Hence its achieving the Builder Pattern
         // build() is using Action Interface
         // perform() is void in nature
-
 
     }
 }

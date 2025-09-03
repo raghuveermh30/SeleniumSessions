@@ -24,6 +24,7 @@ public class ShadowDOMConcept {
          * This will be used for security purpose link Banking application
          * #shadow-root(open) -> Example
          * #shadow-root should be always OPEN not CLOSED
+         * The purpose of the shadow-root is to hide the personal details of the user and to protect the user information from the hackers
          */
 
 
@@ -32,8 +33,10 @@ public class ShadowDOMConcept {
 
         String jsPath = "return document.querySelector(\"#userName\").shadowRoot.querySelector(\"#app2\").shadowRoot.querySelector(\"#pizza\")";
 
+        //document.querySelector("#userName").shadowRoot.querySelector("#app2").shadowRoot.querySelector("#pizza")
+
         JavascriptExecutor js = (JavascriptExecutor) driver;
-        WebElement pizzaEle = (WebElement) js.executeScript(jsPath); //htmlElement (converting into) WebElement
+        WebElement pizzaEle = (WebElement) js.executeScript(jsPath); //html Element (converting into) WebElement -> selenium understands WebElement
         pizzaEle.sendKeys("Veg Pizza");
 
         // #shadow-root(open) is supported only for CSS selector, Xpath is not supported
@@ -41,5 +44,17 @@ public class ShadowDOMConcept {
         //xpath: is not supported
         //css: only css is supported
 
+        /*
+        //This Element is inside 2 nested shadow DOM.
+        String cssSelectorForHost1 = "#userName";
+        String cssSelectorForHost2 = "#app2";
+        Thread.sleep(1000);
+        SearchContext shadow0 = driver.findElement(By.cssSelector("#userName")).getShadowRoot();
+        Thread.sleep(1000);
+        SearchContext shadow1 = shadow0.findElement(By.cssSelector("#app2")).getShadowRoot();
+        Thread.sleep(1000);
+        WebElement ele =  shadow1.findElement(By.cssSelector("#pizza"));
+        ele.sendKeys("Veg Pizza");
+*/
     }
 }

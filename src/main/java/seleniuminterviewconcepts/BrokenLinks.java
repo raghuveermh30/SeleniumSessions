@@ -32,6 +32,7 @@ public class BrokenLinks {
 
             urlList.add(url);
         }
+
         long startTime = System.currentTimeMillis();
         urlList.parallelStream().forEach(e -> brokenLink(e));
         long endTime = System.currentTimeMillis();

@@ -27,6 +27,7 @@ public class SVGElementWithXpath {
 
         //svg#map-svg g#regions>g
 
+        ////*[local-name()='svg' and @id = 'map-svg']//*[name()='g' and @id='regions']/*[name()='g']
         String svgXpath = "//*[local-name()='svg' and @id='map-svg']//*[name()='g' and @id ='regions']/*[name()='g']";
 
         List<WebElement> statesList = driver.findElements(By.xpath(svgXpath));
@@ -36,7 +37,7 @@ public class SVGElementWithXpath {
 
         for (WebElement element : statesList) {
             actions.moveToElement(element).build().perform();
-            String stateId = element.getDomAttribute("alabama");
+            String stateId = element.getDomAttribute("id");
             System.out.println(stateId);
         }
 

@@ -15,7 +15,6 @@ public class FileUploadPopup {
 
         driver.findElement(By.id("fileSubmit")).click();
 
-
         //Robot class: only for windows, it will not work on Linux Machine, docker, Incognito mode, Its only for Windows, its not recomonded
         //Robot Class doesn;t work in the Headless Mode
         //Sikuli lib: based on image processing, We need to maintain more number of images, if any resolution changes in the diff machine, then it won;t work

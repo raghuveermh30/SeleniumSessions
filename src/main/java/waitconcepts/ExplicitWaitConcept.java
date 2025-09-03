@@ -17,7 +17,8 @@ public class ExplicitWaitConcept {
         /* Explicit Wait: It is a high level concept
          * It is used to wait for a specific condition to be true.
          * Advantage: It will be applied to a specific element only.
-         *
+         * Disadvantage: It is not applicable to all the elements in the page.
+         * It is not a global wait.
          *
          */
 

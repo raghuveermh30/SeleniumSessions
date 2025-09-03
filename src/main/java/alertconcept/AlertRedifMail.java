@@ -8,7 +8,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class AlertRedifMail {
 
-
     static WebDriver driver;
 
     public static void main(String[] args) throws InterruptedException {
@@ -30,7 +29,6 @@ public class AlertRedifMail {
         Thread.sleep(3000L);
 
         //****** Missed Password
-
         WebElement emailId = driver.findElement(By.xpath("//input[@name='login']"));
         emailId.sendKeys("shushmaraghuveer3019@gmail.com");
         Thread.sleep(3000L);

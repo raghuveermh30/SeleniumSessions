@@ -11,7 +11,7 @@ public class JavaScriptPopupsHandling {
 
     public static void main(String[] args) throws InterruptedException {
 
-        // alert JS Pop ups:
+        // alert JS Pop-ups:
         //1. alert
         //2. Confirmation
         //3. prompt
@@ -21,15 +21,18 @@ public class JavaScriptPopupsHandling {
         driver.manage().window().maximize();
         Thread.sleep(3000);
 
-       /* WebElement element = driver.findElement(By.xpath("//button[text() = 'Click for JS Alert']"));
+       /*
+        WebElement element = driver.findElement(By.xpath("//button[text() = 'Click for JS Alert']"));
         element.click();
         Thread.sleep(3000L);
 
         //this will be applied on only Javascript Popups
         //Alert is the Interface
+
          Alert alert = driver.switchTo().alert();
-        System.out.println(alert.getText());
-        alert.accept(); //click on OK button
+         System.out.println(alert.getText());
+         alert.accept(); //click on OK button
+
         // alert.dismiss(); // dismiss the alert*/
 
         driver.quit();

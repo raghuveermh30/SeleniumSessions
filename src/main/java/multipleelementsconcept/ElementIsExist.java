@@ -85,4 +85,22 @@ public class ElementIsExist {
         }
     }
 
+    public static boolean doElementIsEnabled(By locator) {
+        try {
+            return getElement(locator).isEnabled();
+        } catch (NoSuchElementException e) {
+            System.out.println("Element is not enabled");
+            return false;
+        }
+    }
+
+    public static boolean doElementIsSelected(By locator) {
+        try {
+            return getElement(locator).isSelected();
+        } catch (NoSuchElementException e) {
+            System.out.println("Element is not selected");
+            return false;
+        }
+    }
+
 }

@@ -38,7 +38,6 @@ public class GoogleSearchSelect {
 
         List<WebElement> suggList = getElements(suggestions);
         System.out.println(suggList.size());
-
         for (WebElement e : suggList) {
             String text = e.getText();
             System.out.println(text);

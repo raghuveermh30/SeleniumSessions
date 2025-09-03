@@ -9,7 +9,7 @@ public class SeleniumWaitConcepts {
         // It is coming from Java, not from Selenium.
 
         //2. Dynamic Wait: 10 seconds --> Element to be present at 2 seconds --> rest of the 8 seconds will be ignored
-        //a. implictly wait
+        //a. implicitly wait
         //b. explicitly wait --> Explicit wait is divided into 2 types:
             //b1. WebDriverWait
             //b2. FluentWait

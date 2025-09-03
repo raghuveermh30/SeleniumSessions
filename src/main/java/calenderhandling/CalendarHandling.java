@@ -73,7 +73,7 @@ public class CalendarHandling {
 
 
         while (!actualMonthYear.equalsIgnoreCase(expMonthYear)) {
-            //click on Next button to go to the next month
+            //click on Prev button to go to the next month
             driver.findElement(By.xpath("//span[text() = 'Prev']")).click();
             actualMonthYear = driver.findElement(By.cssSelector("div.ui-datepicker-title")).getText();
         }
