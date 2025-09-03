@@ -19,6 +19,11 @@ public class IFrameHandle {
         driver.switchTo().frame(driver.findElement(By.id("frame-one748593425")));
 
         driver.findElement(By.id("RESULT_TextField-8")).sendKeys("testAutomation");
+        driver.findElement(By.id("RESULT_TextField-9")).sendKeys("1234567890");
+        driver.findElement(By.id("RESULT_TextField-10")).sendKeys("street addrress");
+        driver.findElement(By.id("RESULT_TextField-11")).sendKeys("Nagarabhavi");
+        driver.findElement(By.id("RESULT_TextField-12")).sendKeys("Bangalore");
+
 
         //Fill the entire Form in the application
 

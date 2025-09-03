@@ -14,7 +14,7 @@ public class AuthPopupHandle {
 
         String username = "admin";
         String password = "admin";
-        //  driver.get("https://"+username+":"+password+"@"+"the-internet.herokuapp.com/basic_auth");
+        //driver.get("https://"+username+":"+password+"@"+"the-internet.herokuapp.com/basic_auth");
 
         //basic Auth --> we need to pass the username and password
 

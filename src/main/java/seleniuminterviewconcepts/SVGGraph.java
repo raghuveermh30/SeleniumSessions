@@ -28,7 +28,7 @@ public class SVGGraph {
                     By.xpath("(//*[local-name()='svg' and @class='highcharts-root'])[2]")));
 
             // Scroll SVG into viewport to ensure it’s interactable
-            ((org.openqa.selenium.JavascriptExecutor) driver).executeScript(
+            ((JavascriptExecutor) driver).executeScript(
                     "arguments[0].scrollIntoView({block: 'center'});", svgContainer);
 
             // Get SVG dimensions for calculating hover offsets

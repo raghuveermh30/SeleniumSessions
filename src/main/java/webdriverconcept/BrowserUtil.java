@@ -7,10 +7,11 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
 import java.net.URL;
+import java.time.Duration;
 
 public class BrowserUtil {
 
-    WebDriver driver;
+    static WebDriver driver;
 
     public WebDriver initDriver(String browserName) {
         System.out.println("Browser name is " + browserName);
@@ -51,11 +52,7 @@ public class BrowserUtil {
         if (url.indexOf("http") == 0) {
             driver.get(url);
             driver.manage().window().maximize();
-            try {
-                Thread.sleep(3000);
-            } catch (InterruptedException e) {
-                throw new RuntimeException(e);
-            }
+            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         } else {
             throw new RuntimeException("===invalid url: either http/https is missing");
         }
@@ -74,11 +71,7 @@ public class BrowserUtil {
         if (String.valueOf(url).indexOf("http") == 0) {
             driver.navigate().to(url);
             driver.manage().window().maximize();
-            try {
-                Thread.sleep(3000);
-            } catch (InterruptedException e) {
-                throw new RuntimeException(e);
-            }
+            driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         } else {
             throw new RuntimeException("===invalid url: either http/https is missing");
         }

@@ -7,10 +7,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
 public class SelectDropDownClassMethods {
+
     static WebDriver driver;
 
     public static void main(String[] args) throws InterruptedException {
-
 
         driver = new ChromeDriver();
         driver.get("https://www.orangehrm.com/en/30-day-free-trial");

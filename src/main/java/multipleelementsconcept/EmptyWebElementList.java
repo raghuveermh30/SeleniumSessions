@@ -24,7 +24,7 @@ public class EmptyWebElementList {
 
         /*
          * FindElement is used to find the single Element -> FindElements is used to find the multiple Element
-         * Return type of FindElement is Single WebElement --> Return type of FindElement is List of WebElement
+//         * Return type of FindElement is Single WebElement --> Return type of FindElement is List of WebElement
          * If element is not available --> FindElement will give NoSuchElementException
          * If element is not available --> FindElements will give 0
          *

@@ -16,11 +16,14 @@ public class SVGElement {
         Thread.sleep(3000);
 
         //Browser --> Page DOM --> iframe DOM --> SVG
-
+        //For SVG we have to use local-name() and name() functions in Xpath because SVG is not in HTML namespace, it is in XML namespace
         ////*[local-name()='svg']
 
         driver.findElement(By.name("q")).sendKeys("macbook");
         Thread.sleep(3000);
         driver.findElement(By.xpath("//*[local-name()='svg']")).click();
+
+        //Scalable Vector Graphics
+        //SVG is described for 2D vector Graphics in HTML
     }
 }

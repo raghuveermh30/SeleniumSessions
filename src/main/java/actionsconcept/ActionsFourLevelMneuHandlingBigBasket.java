@@ -41,7 +41,7 @@ public class ActionsFourLevelMneuHandlingBigBasket {
         driver.findElement(level4Menu).click();
 
 
-        //Approach 2 --> This apprach won;t work due to delay is not added
+        //Approach 2 --> This approach won;t work due to delay is not added
         /* actions.pause(2000).moveToElement(driver.findElement(level2Menu)).pause(2000)
                 .moveToElement(driver.findElement(level3Menu)).pause(2000).click(driver.findElement(level4Menu)).build().perform();
         */

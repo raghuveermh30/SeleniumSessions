@@ -29,7 +29,7 @@ public class SVGGraphElements {
 
         Actions act = new Actions(driver);
         for (WebElement e : statesList) {
-            act.moveToElement(e).perform();
+            act.moveToElement(e).build().perform();
             Thread.sleep(500);
             String idVal = e.getAttribute("id");
             System.out.println(idVal);

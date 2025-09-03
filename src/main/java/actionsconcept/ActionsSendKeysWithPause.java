@@ -44,7 +44,7 @@ public class ActionsSendKeysWithPause {
 
         for (char ch : nameCharArray) {
             actions.sendKeys(getElement(locator), String.valueOf(ch))
-                    .pause(500).perform();
+                    .pause(pauseDuration).perform();
         }
 
     }

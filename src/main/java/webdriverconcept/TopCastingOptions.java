@@ -19,8 +19,8 @@ public class TopCastingOptions {
         ChromeDriver driver1 = new ChromeDriver(); // Only for Chrome
         FirefoxDriver firefoxDriver = new FirefoxDriver(); //Only for Firefox
         // It's valid but not recommended, this will be applicable for chrome Driver
-        // This is TopCasting, its an Object creation for ChormeDriver
-        // We cannot acheive the cross browser testing
+        // This is TopCasting, its an Object creation for ChromeDriver
+        // We cannot achieve the cross browser testing
         // This will be executed only for Local Purpose
 
         //1. Valid and recommended - This is valid and recommended for Local Execution

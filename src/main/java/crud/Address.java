@@ -11,7 +11,6 @@ public class Address {
     public Address(String firstName, String lastName, String city, String address1, String zipCode) {
         this.firstName = firstName;
         this.lastName = lastName;
-
         this.address1 = address1;
         this.city = city;
         this.zipCode = zipCode;

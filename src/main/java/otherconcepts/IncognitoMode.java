@@ -15,6 +15,7 @@ public class IncognitoMode {
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--incognito");
         WebDriver driver = new ChromeDriver(chromeOptions);
+
         driver.get("https://naveenautomationlabs.com/opencart/index.php?route=account/register");
         System.out.println(driver.getTitle());
         driver.quit();

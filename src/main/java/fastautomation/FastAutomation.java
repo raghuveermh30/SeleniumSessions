@@ -27,7 +27,7 @@ public class FastAutomation {
         By speedUnitLocator = By.id("speed-units");
         By finalSpeedLocator = By.xpath("//div[contains(@class,'succeeded') and contains(@id,'speed-value')]");
 
-        String className;
+
 
         while (true) {
             WebElement speedValueElement = wait.until(ExpectedConditions.visibilityOfElementLocated(speedValueLocator));
@@ -35,11 +35,10 @@ public class FastAutomation {
 
             System.out.println(speedValueElement.getText() + " " + speedUnitElement.getText());
 
-            className = speedValueElement.getAttribute("class");
+            String className = speedValueElement.getAttribute("class");
             if (className != null && className.contains("succeeded")) {
                 break;
             }
-
 
         }
 

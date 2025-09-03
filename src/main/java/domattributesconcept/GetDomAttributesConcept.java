@@ -42,14 +42,12 @@ public class GetDomAttributesConcept {
         System.out.println("*************");
 
         //Using Generic Function
-
         By emailId = By.id("input-email");
         String domAttribute = doGetDomAttribute(emailId, "placeholder");
         System.out.println(domAttribute);
 
         String domProperty = doGetDomProperty(emailId, "value");
         System.out.println(domProperty);
-
 
         driver.quit();
     }

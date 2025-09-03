@@ -44,6 +44,7 @@ public class AddressPage {
 
         driver.findElement(zipCode).clear();
         driver.findElement(zipCode).sendKeys(address.getZipCode());
+
         driver.findElement(createAddress).click();
         return driver.findElement(sucessMsg).getText();
     }

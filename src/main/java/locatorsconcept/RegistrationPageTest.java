@@ -17,7 +17,6 @@ public class RegistrationPageTest {
         System.out.println(browserUtil.getTitle());
         System.out.println(browserUtil.getPageUrl());
 
-
         By firstName = By.id("input-firstname");
         By lastName = By.name("lastname");
         By searchFiled = By.className("form-control");

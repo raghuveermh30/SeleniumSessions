@@ -25,7 +25,7 @@ public class WebDriverFactory {
     public WebDriver getDriver(String browserName) {
         return driverMap.getOrDefault(browserName.toLowerCase().trim(), () -> {
             System.out.println("Browser not Found.." + browserName);
-            throw  new RuntimeException("Browser Not Found");
+            throw new RuntimeException("Browser Not Found");
         }).get();
     }
 

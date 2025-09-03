@@ -28,25 +28,32 @@ public class ActionsOpenCart {
         By mp3Players = By.xpath("//a[text() = 'MP3 Players']");
         By mp3PlayersList = By.xpath("//li[@class = 'dropdown open']//div[@class = 'dropdown-inner']//ul/li");
 
+
         Actions actions = new Actions(driver);
 
-        actions.moveToElement(driver.findElement(lapNet)).build().perform();
+        actions.moveToElement(getElement(lapNet)).build().perform();
         Thread.sleep(3000L);
-        actions.click(driver.findElement(mac)).build().perform();
+        actions.click(getElement(mac)).build().perform();
         Thread.sleep(3000L);
         driver.findElement(macText).isDisplayed();
         Thread.sleep(3000L);
 
-        actions.moveToElement(driver.findElement(mp3Players)).build().perform();
+        actions.moveToElement(getElement(mp3Players)).build().perform();
         Thread.sleep(3000L);
-        List<WebElement> mp3PlayersArray = driver.findElements(mp3PlayersList);
+        List<WebElement> mp3PlayersArray = getElements(mp3PlayersList);
         System.out.println(mp3PlayersArray.size());
 
         for (WebElement element : mp3PlayersArray) {
             String text = element.getText();
             System.out.println(text);
         }
+    }
 
+    public static WebElement getElement(By locator) {
+        return driver.findElement(locator);
+    }
 
+    public static List<WebElement> getElements(By locator) {
+        return driver.findElements(locator);
     }
 }
